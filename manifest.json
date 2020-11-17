@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Email This Page",
+    "version": "1.0",
+    "description": "A utility extension to email web pages",
+    "permissions": [
+        "contextMenus", "activeTab"
+      ],
+
+      "icons": {
+          "16": "logo.png",
+          "128": "logo128.png"
+      },
+
+      "browser_action": {
+        "default_icon": {                   
+          "16": "logo.png"   
+        }
+        },        
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
